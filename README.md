@@ -17,7 +17,7 @@ $ npm start
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
-All HTML/CSS/JS files are in the `public` directory.
+All HTML/CSS/JS files are in the `public` directory, anything stored in `public` will be served statically to the user.
 
 ## Deploying to Heroku
 
