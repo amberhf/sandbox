@@ -28,4 +28,4 @@ $ heroku open # will give you a "Direct access forbidden" error - see below
 ```
 
 ## Setting up the labs server routing config
-Checkout the documentation at https://github.com/decodedco/labs 
+To finish setting up your project, return to the documentation at https://github.com/decodedco/labs 
