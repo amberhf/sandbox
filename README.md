@@ -8,7 +8,7 @@ Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https
 
 You'll also need to have a name for your project - see https://github.com/decodedco/labs for guidelines
 ```sh
-$ git clone git@github.com:decodedco/labs-static.git <your-project-name-here> # or clone your own fork
+$ git clone git@github.com:decodedco/labs-static.git <your-project-name-here>
 $ cd <your-project-name-here>
 $ git remote rm origin # so you don't change the sample site
 $ npm install
