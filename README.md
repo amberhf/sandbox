@@ -21,8 +21,13 @@ All HTML/CSS/JS files are in the `public` directory, anything stored in `public`
 
 ## Deploying to Heroku
 
+The next step deploys your app to heroku.
+
+In this step you'll need the labs router IP address, stored in a secure note in lastpass.
+
 ```
 $ heroku create decoded-<your-project-name-here> # may ask you to login (check details in lastpass)
+$ heroku config:set LABS_IP=<labs-router-ip-goes-here>
 $ git push heroku master
 $ heroku open # will give you a "Direct access forbidden" error - see below
 ```
