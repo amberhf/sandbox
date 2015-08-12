@@ -22,7 +22,7 @@ Your app should now be running on [localhost:5000](http://localhost:5000/).
 ```
 $ heroku create decoded-<your-project-name-here> # may ask you to login (check details in lastpass)
 $ git push heroku master
-$ heroku open # will give you a "Direct access forbidden" error
+$ heroku open # will give you a "Direct access forbidden" error - see below
 ```
 
 ## Setting up the labs server routing config
