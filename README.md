@@ -34,3 +34,16 @@ $ heroku open # will give you a "Direct access forbidden" error - see below
 
 ## Setting up the labs server routing config
 To finish setting up your project, return to the documentation at https://github.com/decodedco/labs 
+
+## Making changes
+Heroku runs on git - to deploy code changes, commit your code and push it to heroku e.g.:
+
+```
+# make some changes!
+$ git add --all
+$ git commit -m "Here is a concise description of my changes"
+$ git push heroku master # this will take a few moments while your app is deployed.
+```
+You can then view your app at it's labs.decoded.com url.
+
+You can (and should) also store your code on github. Heroku does not interfere with this process.
