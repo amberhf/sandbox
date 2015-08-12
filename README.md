@@ -5,6 +5,7 @@ A barebones static html app using [Express 4](http://expressjs.com/).
 ## Running Locally
 
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
+
 You'll also need to have a name for your project - see https://github.com/decodedco/labs for guidelines
 ```sh
 $ git clone git@github.com:decodedco/labs-static.git <your-project-name-here> # or clone your own fork
