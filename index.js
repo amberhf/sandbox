@@ -16,8 +16,9 @@ app.use(function(request, response, next) {
   } else {
     ipAddr = request.connection.remoteAddress;
   }
-  // Allow access to labs 
-  if (ipAddr === process.env.LABS_IP || ipAddr === '::1') {
+  // Allow access to labs
+  allowed_ips = ['::1','127.0.0.1','localhost','::ffff:127.0.0.1'];
+  if (ipAddr === process.env.LABS_IP || allowed_ips.indexOf(ipAddr) != -1) {
     next();
   } else {
     response.status(403);
