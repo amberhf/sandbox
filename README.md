@@ -5,8 +5,8 @@ A barebones static html app using [Express 4](http://expressjs.com/).
 ## Prerequisities
 
 1. You have already started following the instructions at [https://github.com/decodedco/labs](https://github.com/decodedco/labs)
-2. You have a <project-name> for your project
-2. You have a <project-remote> from your project repository (e.g. `git@github.com:DecodedCo/yourproject.git`)
+2. You have a \<project-name\> for your project
+2. You have a \<project-remote\> from your project repository (e.g. `git@github.com:DecodedCo/yourproject.git`)
 1. You have [Node.js](http://nodejs.org/) installed.
 
 ## Running Locally
