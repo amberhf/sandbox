@@ -1,6 +1,0 @@
-{"type":"FeatureCollection","features":[
-	{"type":"Feature","id":01,"properties":{"name":"NYC > Jo'Berg","time":2000},"geometry":{"type":"LineString","coordinates":[[[-74.0, 40.7],[28.0,-26.2]]]}},
-	{"type":"Feature","id":02,"properties":{"name":"London > Jo'Berg","time":4000},"geometry":{"type":"LineString","coordinates":[[[-0.1,51.5],[28.0,-26.2]]]}},
-	{"type":"Feature","id":03,"properties":{"name":"Rio > Jo'Berg","time":8000},"geometry":{"type":"LineString","coordinates":[[[-43.2,-22.9],[28.0,-26.2]]]}},
-	{"type":"Feature","id":04,"properties":{"name":"Shanghai > Jo'Berg","time":10000},"geometry":{"type":"LineString","coordinates":[[[121.4,31.2],[28.0,-26.2]]]}}
-]}
