@@ -1,1 +1,40 @@
-Hello World
+<html>
+<head>
+	<title>One Young World</title>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/d3.v3.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/timer.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	<div id="map"></div>
+	<div id="resizeWarning"><h1>Reloading page in <span id="countdown">3</span> due to window resize</h1></div>
+	<div class="splash-panel">
+		<h1 id="begin" class="btn big-btn">Click To Begin</h1>
+		<p>Duration: (seconds)</p>
+		<input id="duration" type="number" min="30" max="600" step="30" value="60">
+		<h3 id="update" class="btn">Update</h3>
+	</div>
+	<div id="timer"></div>
+	<div class="bottom-panel">
+		<a href="http://www.oneyoungworld.com/">
+			<img class="logo" src="img/oyw-trans.gif">
+		</a>
+		<a href="https://decoded.com">
+			<img class="logo pull-right" src="img/big-trans.png">
+		</a>
+	</div>
+
+	<!-- <audio src="song.ogg" preload></audio> -->
+
+	<script type="text/javascript" src="js/latlon.js"></script>
+	<script type="text/javascript" src="js/debug.js"></script>
+	<script type="text/javascript" src="js/country-codes.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
