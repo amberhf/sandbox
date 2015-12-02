@@ -1,4 +1,5 @@
 var express = require('express');
+var compress = require('compression');
 var app = express();
 
 // Use heroku configured port, or 5000 locally.
@@ -29,6 +30,9 @@ app.use(function(request, response, next) {
 /*****************\
 | OK, CARRY ON... |
 \*****************/
+
+// gzip static content
+app.use(compress());
 
 // Serve static content from the /public directory
 app.use(express.static(__dirname + '/public'));
