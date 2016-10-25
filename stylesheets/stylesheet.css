@@ -8,7 +8,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #A2A2A2; }
-            
+
 a {
   color: #1e6bb8;
   text-decoration: none; }
@@ -111,7 +111,7 @@ a {
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   margin-top: 2rem;
   margin-bottom: 1rem;
-  font-weight: normal;
+  font-weight: light;
   color: #333333; }
 .main-content p {
   margin-bottom: 1em; }
