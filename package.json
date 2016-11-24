@@ -1,0 +1,18 @@
+{
+  "name": "decoded-labs-static",
+  "version": "0.0.1",
+  "description": "A sample static html app using Express 4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "compression": "^1.6.1",
+    "ejs": "^2.5.2",
+    "express": "~4.9.x"
+  },
+  "engines": {
+    "node": "0.12.2"
+  },
+  "license": "MIT"
+}
